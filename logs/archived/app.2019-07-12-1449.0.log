@@ -1,0 +1,11 @@
+2019-07-12 14:49:22,209 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 14:49:22,211 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-12 14:49:22,239 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 27 ms
+2019-07-12 14:49:22,890 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Starting a transaction for req : /api/public
+2019-07-12 14:49:22,890 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Request  GET : /api/public
+2019-07-12 14:49:23,013 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Response :application/json;charset=UTF-8
+2019-07-12 14:49:23,013 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Commiting Transactipn for req:/api/public
+2019-07-12 14:49:34,680 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-2] Starting a transaction for req : /api/index
+2019-07-12 14:49:34,680 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-2] Logging Request  GET : /api/index
+2019-07-12 14:49:34,719 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-2] Logging Response :application/json;charset=UTF-8
+2019-07-12 14:49:34,719 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-2] Commiting Transactipn for req:/api/index

@@ -11,13 +11,17 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.NoHandlerFoundException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+import java.util.logging.Logger;
+
 @ControllerAdvice
 //@EnableWebMvc
 public class MyExceptionHandler extends ResponseEntityExceptionHandler {
 
+    Logger logger = Logger.getLogger(this.getClass().getName());
     //not found exception
     @ExceptionHandler({NotFoundException.class})
     public ResponseEntity<ErrorResponse> HanderException(NotFoundException r) {
+
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ErrorResponse("NOT_FOUND", r.getMessage()));
     }
 
@@ -38,6 +42,7 @@ public class MyExceptionHandler extends ResponseEntityExceptionHandler {
 
     @Override
     protected ResponseEntity<Object> handleNoHandlerFoundException(NoHandlerFoundException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
+
         return super.handleNoHandlerFoundException(ex, headers, status, request);
     }
 

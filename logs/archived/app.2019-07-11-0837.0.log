@@ -1,0 +1,5 @@
+2019-07-11 08:37:47,495 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 340 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-11 08:37:47,529 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-11 08:37:47,529 INFO com.example.btrestful1.Btrestful1Application [main] The following profiles are active: prod
+2019-07-11 08:37:59,658 INFO com.example.btrestful1.filter.TransactionFilter [main] Initializing filter :com.example.btrestful1.filter.TransactionFilter@19f7222e
+2019-07-11 08:37:59,672 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Initializing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@3dd4a6fa

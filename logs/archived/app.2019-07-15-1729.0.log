@@ -1,0 +1,7 @@
+2019-07-15 17:29:08,392 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-3] Starting a transaction for req : /accounts/45
+2019-07-15 17:29:08,394 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-3] Logging Request  DELETE : /accounts/45
+2019-07-15 17:29:08,406 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-3] Logging Response :application/json;charset=UTF-8
+2019-07-15 17:29:08,406 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-3] Commiting Transactipn for req:/accounts/45
+2019-07-15 17:29:59,624 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 15068 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-15 17:29:59,629 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-15 17:29:59,630 INFO com.example.btrestful1.Btrestful1Application [main] No active profile set, falling back to default profiles: default

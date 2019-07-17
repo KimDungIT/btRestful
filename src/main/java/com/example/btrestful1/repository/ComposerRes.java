@@ -15,6 +15,7 @@ public interface ComposerRes extends JpaRepository<Composer, Integer>, JpaSpecif
     //lay danh sach cac composer co id thuoc list id
     List<Composer> findAllByIdIn(List<Integer> id);
 
+
     //Composer: Object
     @Query("select c from Composer c where c.age > 40")
     List<Composer> getListComposer();

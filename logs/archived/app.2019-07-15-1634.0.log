@@ -1,0 +1,4 @@
+2019-07-15 16:34:30,141 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-4] Starting a transaction for req : /accounts/42
+2019-07-15 16:34:30,146 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-4] Logging Request  PATCH : /accounts/42
+2019-07-15 16:34:30,176 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-4] Logging Response :application/json;charset=UTF-8
+2019-07-15 16:34:30,176 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-4] Commiting Transactipn for req:/accounts/42

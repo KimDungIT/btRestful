@@ -7,6 +7,8 @@ import com.example.btrestful1.service.ComposerService;
 import com.example.btrestful1.service.MusicService;
 import com.example.btrestful1.specification.ComposerSpecificationBuilder;
 import com.google.common.base.Joiner;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -31,11 +33,20 @@ public class ComposerController {
     @Autowired
     MusicService musicService;
 
+    private static final Logger LOG = LoggerFactory.getLogger(ComposerController.class);
+
     //get all
     @RequestMapping(value = "/composers", method = RequestMethod.GET)
     public Page<Composer> listComposer(@PageableDefault(size = 5) Pageable pageable)
     {
+        LOG.trace("This is TRACE");
+        LOG.debug("This is DEBUG");
+        LOG.info("This is INFO");
+        LOG.warn("This is WARN");
+        LOG.error("This is ERROR");
+
         return composerService.getAllComposer(pageable);
+
     }
 
     //get all music by composerId
@@ -48,10 +59,17 @@ public class ComposerController {
 
     //get by id
     @RequestMapping(value = "/composers/{id}", method = RequestMethod.GET)
-    public Composer getComposerById(@PathVariable("id") Integer id) throws Exception {
+    public Composer getComposerById(@PathVariable("id") int id) throws Exception {
 
         return composerService.getById(id);
     }
+
+//    //get by id
+//    @RequestMapping(value = "/composers", method = RequestMethod.GET)
+//    public Composer getComposerById(@RequestParam("id") int id) throws Exception {
+//
+//        return composerService.getById(id);
+//    }
 
     //insert composer
     @RequestMapping(value = "/composers", method = RequestMethod.POST)
@@ -113,5 +131,11 @@ public class ComposerController {
         return composerRes.findAll(spec);
     }
 
+    //search age > 60
+    @RequestMapping(value = "/composers/search", method = RequestMethod.GET)
+    public List<Composer> getComposerByAgeGreatherThan60()
+    {
+        return composerService.givenMinAge_whenGettingListOfUsers_thenCorrect();
+    }
 
 }

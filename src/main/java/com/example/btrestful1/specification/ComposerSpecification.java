@@ -13,7 +13,8 @@ public class ComposerSpecification implements Specification<Composer> {
 
     private SearchCriteria criteria;
 
-    public ComposerSpecification(SearchCriteria age) {
+    public ComposerSpecification(SearchCriteria criteria) {
+        this.criteria = criteria;
     }
 
     @Override

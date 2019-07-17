@@ -1,0 +1,7 @@
+2019-07-15 16:57:26,857 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 16:57:26,859 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-15 16:57:26,879 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 20 ms
+2019-07-15 16:57:27,588 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Starting a transaction for req : /accounts/42
+2019-07-15 16:57:27,588 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Request  PUT : /accounts/42
+2019-07-15 16:57:27,724 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Response :application/json;charset=UTF-8
+2019-07-15 16:57:27,724 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Commiting Transactipn for req:/accounts/42

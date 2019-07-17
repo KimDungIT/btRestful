@@ -1,0 +1,7 @@
+2019-07-15 17:08:55,005 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-3] Starting a transaction for req : /accounts/42
+2019-07-15 17:08:55,008 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-3] Logging Request  PUT : /accounts/42
+2019-07-15 17:08:55,013 INFO com.example.btrestful1.service.AccountService [http-nio-8081-exec-3] get account by id 42
+2019-07-15 17:08:55,018 INFO com.example.btrestful1.controller.AccountController [http-nio-8081-exec-3] change password if role is ADMIN or its username
+2019-07-15 17:08:55,018 INFO com.example.btrestful1.service.AccountService [http-nio-8081-exec-3] save account 
+2019-07-15 17:08:55,198 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-3] Logging Response :application/json;charset=UTF-8
+2019-07-15 17:08:55,216 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-3] Commiting Transactipn for req:/accounts/42

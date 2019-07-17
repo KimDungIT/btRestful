@@ -1,0 +1,132 @@
+2019-07-17 23:13:36,578 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 9048 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-17 23:13:36,632 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:13:36,632 INFO com.example.btrestful1.Btrestful1Application [main] No active profile set, falling back to default profiles: default
+2019-07-17 23:13:38,881 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 23:13:39,100 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 169ms. Found 3 repository interfaces.
+2019-07-17 23:13:40,893 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$871fbde1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:40,988 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$1fcd861b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:40,999 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:41,003 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@46dcbeab' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:41,009 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityConfig' of type [com.example.btrestful1.configuration.MethodSecurityConfig$$EnhancerBySpringCGLIB$$bbd53cc4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:41,021 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:13:41,621 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2019-07-17 23:13:41,655 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-07-17 23:13:41,656 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 23:13:41,919 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-07-17 23:13:41,919 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 5171 ms
+2019-07-17 23:13:41,990 INFO org.springframework.boot.web.servlet.RegistrationBean [main] Filter requestResponseLoggingFilter was not registered (possibly already registered?)
+2019-07-17 23:13:42,012 INFO com.example.btrestful1.filter.TransactionFilter [main] Initializing filter :com.example.btrestful1.filter.TransactionFilter@5d5c41e5
+2019-07-17 23:13:42,014 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Initializing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@715f45c6
+2019-07-17 23:13:42,348 INFO org.flywaydb.core.internal.license.VersionPrinter [main] Flyway Community Edition 5.2.4 by Boxfuse
+2019-07-17 23:13:43,443 INFO org.flywaydb.core.internal.database.DatabaseFactory [main] Database: jdbc:mysql://localhost:3306/mysql (MySQL 8.0)
+2019-07-17 23:13:43,723 INFO org.flywaydb.core.internal.command.DbValidate [main] Successfully validated 2 migrations (execution time 00:00.093s)
+2019-07-17 23:13:43,785 INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory [main] Creating Schema History table: `song`.`flyway_schema_history`
+2019-07-17 23:13:44,975 INFO org.flywaydb.core.internal.command.DbBaseline [main] Successfully baselined schema with version: 1
+2019-07-17 23:13:45,176 INFO org.flywaydb.core.internal.command.DbMigrate [main] Current version of schema `song`: 1
+2019-07-17 23:13:45,180 INFO org.flywaydb.core.internal.command.DbMigrate [main] Migrating schema `song` to version 2 - testdata
+2019-07-17 23:13:45,269 WARN org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor [main] DB: Field 'id' doesn't have a default value (SQL State: HY000 - Error Code: 1364)
+2019-07-17 23:13:45,272 ERROR org.flywaydb.core.internal.command.DbMigrate [main] Migration of schema `song` to version 2 - testdata failed! Please restore backups and roll back database and code!
+2019-07-17 23:13:45,468 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V2__testdata.sql failed
+---------------------------------
+SQL State  : HY000
+Error Code : 1364
+Message    : Field 'id' doesn't have a default value
+Location   : db/migration/V2__testdata.sql (D:\intellj_project\btrestful1\target\classes\db\migration\V2__testdata.sql)
+Line       : 1
+Statement  : INSERT INTO account(username, password, enable, role) VALUES('Rajeev', 'abc', true, 'USER')
+
+2019-07-17 23:13:45,474 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2019-07-17 23:13:45,477 WARN com.example.btrestful1.filter.TransactionFilter [main] Destructing filter :com.example.btrestful1.filter.TransactionFilter@5d5c41e5
+2019-07-17 23:13:45,477 WARN com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Destructing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@715f45c6
+2019-07-17 23:13:45,493 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-17 23:13:45,514 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V2__testdata.sql failed
+---------------------------------
+SQL State  : HY000
+Error Code : 1364
+Message    : Field 'id' doesn't have a default value
+Location   : db/migration/V2__testdata.sql (D:\intellj_project\btrestful1\target\classes\db\migration\V2__testdata.sql)
+Line       : 1
+Statement  : INSERT INTO account(username, password, enable, role) VALUES('Rajeev', 'abc', true, 'USER')
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.example.btrestful1.Btrestful1Application.main(Btrestful1Application.java:12)
+Caused by: org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V2__testdata.sql failed
+---------------------------------
+SQL State  : HY000
+Error Code : 1364
+Message    : Field 'id' doesn't have a default value
+Location   : db/migration/V2__testdata.sql (D:\intellj_project\btrestful1\target\classes\db\migration\V2__testdata.sql)
+Line       : 1
+Statement  : INSERT INTO account(username, password, enable, role) VALUES('Rajeev', 'abc', true, 'USER')
+
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:370)
+	at org.flywaydb.core.internal.command.DbMigrate.access$200(DbMigrate.java:54)
+	at org.flywaydb.core.internal.command.DbMigrate$3.call(DbMigrate.java:284)
+	at org.flywaydb.core.internal.jdbc.TransactionTemplate.execute(TransactionTemplate.java:74)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigrations(DbMigrate.java:281)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateGroup(DbMigrate.java:246)
+	at org.flywaydb.core.internal.command.DbMigrate.access$100(DbMigrate.java:54)
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:164)
+	at org.flywaydb.core.internal.command.DbMigrate$2.call(DbMigrate.java:161)
+	at org.flywaydb.core.internal.database.mysql.MySQLNamedLockTemplate.execute(MySQLNamedLockTemplate.java:60)
+	at org.flywaydb.core.internal.database.mysql.MySQLConnection.lock(MySQLConnection.java:147)
+	at org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory.lock(JdbcTableSchemaHistory.java:155)
+	at org.flywaydb.core.internal.command.DbMigrate.migrateAll(DbMigrate.java:161)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:139)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1395)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1356)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1711)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1356)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 18 common frames omitted
+Caused by: org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException: 
+Migration V2__testdata.sql failed
+---------------------------------
+SQL State  : HY000
+Error Code : 1364
+Message    : Field 'id' doesn't have a default value
+Location   : db/migration/V2__testdata.sql (D:\intellj_project\btrestful1\target\classes\db\migration\V2__testdata.sql)
+Line       : 1
+Statement  : INSERT INTO account(username, password, enable, role) VALUES('Rajeev', 'abc', true, 'USER')
+
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.handleException(DefaultSqlScriptExecutor.java:253)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:202)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.execute(DefaultSqlScriptExecutor.java:125)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:77)
+	at org.flywaydb.core.internal.command.DbMigrate.doMigrateGroup(DbMigrate.java:367)
+	... 38 common frames omitted
+Caused by: java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.flywaydb.core.internal.jdbc.JdbcTemplate.executeStatement(JdbcTemplate.java:235)
+	at org.flywaydb.core.internal.sqlscript.StandardSqlStatement.execute(StandardSqlStatement.java:42)
+	at org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor.executeStatement(DefaultSqlScriptExecutor.java:189)
+	... 41 common frames omitted

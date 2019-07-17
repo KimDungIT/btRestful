@@ -1,0 +1,15 @@
+2019-07-09 16:56:43,018 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 1488 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-09 16:56:43,187 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-09 16:56:43,187 INFO com.example.btrestful1.Btrestful1Application [main] The following profiles are active: prod
+2019-07-09 16:56:47,611 INFO com.example.btrestful1.filter.TransactionFilter [main] Initializing filter :com.example.btrestful1.filter.TransactionFilter@49ede9c7
+2019-07-09 16:56:47,613 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Initializing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@22a0d4ea
+2019-07-09 16:56:52,035 INFO com.example.btrestful1.Btrestful1Application [main] Started Btrestful1Application in 9.812 seconds (JVM running for 11.59)
+2019-07-09 16:56:55,927 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Starting a transaction for req : /composers
+2019-07-09 16:56:55,927 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Request  GET : /composers
+2019-07-09 16:56:55,959 DEBUG com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is DEBUG
+2019-07-09 16:56:55,959 INFO com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is INFO
+2019-07-09 16:56:55,959 WARN com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is WARN
+2019-07-09 16:56:55,959 ERROR com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is ERROR
+2019-07-09 16:56:55,960 INFO com.example.btrestful1.service.ComposerService [http-nio-8081-exec-1] get all composer
+2019-07-09 16:56:56,127 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Response :application/json;charset=UTF-8
+2019-07-09 16:56:56,127 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Commiting Transactipn for req:/composers

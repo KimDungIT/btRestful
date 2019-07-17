@@ -49,10 +49,7 @@ public class MusicController {
     @RequestMapping(value = "/musics/{id}", method = RequestMethod.DELETE)
     public Music deleteMusic(@PathVariable("id") int id) throws Exception {
 
-        if (musicService.getById(id)!=null)
-        {
-            musicService.deleteMusicById(id);
-        }
+       musicService.deleteMusicById(id);
 
         return  musicService.getById(id);
 

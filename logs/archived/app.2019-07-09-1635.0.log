@@ -1,0 +1,14 @@
+2019-07-09 16:35:17,603 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 11076 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-09 16:35:17,611 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-09 16:35:17,611 INFO com.example.btrestful1.Btrestful1Application [main] The following profiles are active: prod
+2019-07-09 16:35:21,994 INFO com.example.btrestful1.filter.TransactionFilter [main] Initializing filter :com.example.btrestful1.filter.TransactionFilter@65d57e4e
+2019-07-09 16:35:21,998 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Initializing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@a2ddf26
+2019-07-09 16:35:27,155 INFO com.example.btrestful1.Btrestful1Application [main] Started Btrestful1Application in 10.333 seconds (JVM running for 12.65)
+2019-07-09 16:35:27,441 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Starting a transaction for req : /composers
+2019-07-09 16:35:27,441 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Request  GET : /composers
+2019-07-09 16:35:27,467 DEBUG com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is DEBUG
+2019-07-09 16:35:27,467 INFO com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is INFO
+2019-07-09 16:35:27,467 WARN com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is WARN
+2019-07-09 16:35:27,467 ERROR com.example.btrestful1.controller.ComposerController [http-nio-8081-exec-1] This is ERROR
+2019-07-09 16:35:27,614 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-1] Logging Response :application/json;charset=UTF-8
+2019-07-09 16:35:27,615 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-1] Commiting Transactipn for req:/composers

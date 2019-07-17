@@ -1,0 +1,5 @@
+2019-07-09 16:59:21,924 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-4] Starting a transaction for req : /composers/search
+2019-07-09 16:59:21,927 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-4] Logging Request  GET : /composers/search
+2019-07-09 16:59:21,928 INFO com.example.btrestful1.service.ComposerService [http-nio-8081-exec-4] search composer with age greather than 50 and name start with huy
+2019-07-09 16:59:21,976 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [http-nio-8081-exec-4] Logging Response :application/json;charset=UTF-8
+2019-07-09 16:59:21,976 INFO com.example.btrestful1.filter.TransactionFilter [http-nio-8081-exec-4] Commiting Transactipn for req:/composers/search

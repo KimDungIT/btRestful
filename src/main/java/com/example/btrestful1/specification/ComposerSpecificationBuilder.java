@@ -5,9 +5,7 @@ import com.example.btrestful1.model.SearchCriteria;
 import com.example.btrestful1.model.SearchOperation;
 import org.springframework.data.jpa.domain.Specification;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ComposerSpecificationBuilder {
 

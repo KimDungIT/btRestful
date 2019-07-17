@@ -1,0 +1,37 @@
+2019-07-17 23:17:52,084 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 3988 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-17 23:17:52,092 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:17:52,093 INFO com.example.btrestful1.Btrestful1Application [main] No active profile set, falling back to default profiles: default
+2019-07-17 23:17:53,860 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 23:17:53,996 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123ms. Found 3 repository interfaces.
+2019-07-17 23:17:54,662 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49995b85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:54,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e24723bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:54,735 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:54,739 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6d67f5eb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:54,744 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityConfig' of type [com.example.btrestful1.configuration.MethodSecurityConfig$$EnhancerBySpringCGLIB$$7e4eda68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:54,750 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 23:17:55,201 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2019-07-17 23:17:55,241 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-07-17 23:17:55,241 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 23:17:55,479 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-07-17 23:17:55,480 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 3274 ms
+2019-07-17 23:17:55,546 INFO org.springframework.boot.web.servlet.RegistrationBean [main] Filter requestResponseLoggingFilter was not registered (possibly already registered?)
+2019-07-17 23:17:55,566 INFO com.example.btrestful1.filter.TransactionFilter [main] Initializing filter :com.example.btrestful1.filter.TransactionFilter@3e900e1a
+2019-07-17 23:17:55,568 INFO com.example.btrestful1.filter.RequestResponseLoggingFilter [main] Initializing filter :com.example.btrestful1.filter.RequestResponseLoggingFilter@2b44d6d0
+2019-07-17 23:17:55,781 INFO org.flywaydb.core.internal.license.VersionPrinter [main] Flyway Community Edition 5.2.4 by Boxfuse
+2019-07-17 23:17:56,893 INFO org.flywaydb.core.internal.database.DatabaseFactory [main] Database: jdbc:mysql://localhost:3306/mysql (MySQL 8.0)
+2019-07-17 23:17:56,998 INFO org.flywaydb.core.internal.command.DbValidate [main] Successfully validated 2 migrations (execution time 00:00.032s)
+2019-07-17 23:17:57,023 INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory [main] Creating Schema History table: `song`.`flyway_schema_history`
+2019-07-17 23:17:58,512 INFO org.flywaydb.core.internal.command.DbBaseline [main] Successfully baselined schema with version: 1
+2019-07-17 23:17:58,528 INFO org.flywaydb.core.internal.command.DbMigrate [main] Current version of schema `song`: 1
+2019-07-17 23:17:58,531 INFO org.flywaydb.core.internal.command.DbMigrate [main] Migrating schema `song` to version 2 - testdata
+2019-07-17 23:17:58,776 INFO org.flywaydb.core.internal.command.DbMigrate [main] Successfully applied 1 migration to schema `song` (execution time 00:00.261s)
+2019-07-17 23:17:58,895 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-07-17 23:17:58,896 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-07-17 23:17:58,916 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-07-17 23:17:58,996 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-17 23:17:59,138 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-17 23:17:59,140 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-07-17 23:17:59,470 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-17 23:17:59,916 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect

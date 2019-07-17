@@ -1,0 +1,4 @@
+2019-07-11 08:38:11,584 INFO com.example.btrestful1.Btrestful1Application [main] Started Btrestful1Application in 26.7 seconds (JVM running for 35.55)
+2019-07-11 08:38:56,271 INFO com.example.btrestful1.Btrestful1Application [main] Starting Btrestful1Application on DESKTOP-HNLGD2K with PID 11508 (D:\intellj_project\btrestful1\target\classes started by Kim Dung in D:\intellj_project\btrestful1)
+2019-07-11 08:38:56,315 DEBUG com.example.btrestful1.Btrestful1Application [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-11 08:38:56,318 INFO com.example.btrestful1.Btrestful1Application [main] No active profile set, falling back to default profiles: default
